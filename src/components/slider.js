@@ -1,12 +1,14 @@
 import React, { Component } from "react";
 import { Carousel } from 'react-materialize';
-
+import Catagories from "./catagories";
 
 class Nav extends Component {
   render() {
     return (
+      <>
+      {/* <Catagories /> */}
       <Carousel
-  carouselId="Carousel-39"
+  carouselId="Carousel-95"
   className="white-text center"
   options={{
     fullWidth: true,
@@ -46,6 +48,7 @@ class Nav extends Component {
     </p>
   </div>
 </Carousel>
+</>
     );
   }
 }

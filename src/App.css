@@ -38,7 +38,62 @@
 } */
 
 
+
+/* banner  */
+
 #banner {
   max-width: 100%;
   height: auto;
+}
+
+
+/* sticky footer */
+
+ #root {
+   display: flex;
+   min-height: 100vh;
+   flex-direction: column;
+ }
+
+ /* nav bar */
+
+/* nav {
+  height: 30px;
+  line-height: 30px;
+}
+
+nav i,
+nav [class^="mdi-"],
+nav [class*="mdi-"],
+nav i.material-icons {
+  height: 30px;
+  line-height: 30px;
+}
+
+nav .button-collapse i {
+  height: 30px;
+  line-height: 30px;
+}
+
+nav .brand-logo {
+  font-size: 1.6rem;
+} */
+
+@media only screen and (min-width: 601px) {
+
+  nav,
+  nav .nav-wrapper i,
+  nav a.button-collapse,
+  nav a.button-collapse i {
+    height: 150px;
+    line-height: 60px;
+  }
+}
+
+/* Logo */
+@media only screen and (max-width: 600px) {
+  #logo {
+    width: 85px;
+    height: auto;
+  }
 }
