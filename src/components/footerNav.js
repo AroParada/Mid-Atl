@@ -8,7 +8,7 @@ class FooterNav extends Component {
       <Footer
   className="example"
   copyrights="&copy 2015 Copyright Text"
-  links={<ul><li><a className="grey-text text-lighten-3" href="#!">Link 1</a></li><li><a className="grey-text text-lighten-3" href="#!">Link 2</a></li><li><a className="grey-text text-lighten-3" href="#!">Link 3</a></li><li><a className="grey-text text-lighten-3" href="#!">Link 4</a></li></ul>}
+  links={<ul><li><a className="grey-text text-lighten-3" href="#!">Link 1</a></li><li><a className="grey-text text-lighten-3" href="#!">Link 2</a></li><li><a className="grey-text text-lighten-3" href="#!">Link 3</a></li><li> <a className="grey-text text-lighten-3" href="#!">Link 4</a> </li><li> <a className="grey-text text-lighten-3" href="#!">Link 4</a> </li> <li> <a className="grey-text text-lighten-3" href="#!">Link 4</a> </li></ul>}
   moreLinks={<a className="grey-text text-lighten-4 right" href="#!">More Links</a>}
 >
   <h5 className="white-text">

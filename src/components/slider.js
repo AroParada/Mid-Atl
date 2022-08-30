@@ -1,14 +1,12 @@
 import React, { Component } from "react";
-import { Carousel } from 'react-materialize';
-import Catagories from "./catagories";
+import { Carousel} from 'react-materialize';
+import Logo from '../assets/mad_logo_1621017828__60458 (1).webp'
 
-class Nav extends Component {
+class Slider extends Component {
   render() {
     return (
-      <>
-      {/* <Catagories /> */}
-      <Carousel
-  carouselId="Carousel-95"
+ <Carousel
+  carouselId="Carousel-52"
   className="white-text center"
   options={{
     fullWidth: true,
@@ -48,9 +46,8 @@ class Nav extends Component {
     </p>
   </div>
 </Carousel>
-</>
     );
   }
 }
 
-export default Nav;
+export default Slider;

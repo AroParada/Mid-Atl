@@ -7,15 +7,14 @@ class Catagories extends Component {
     return (
         <Row>
   <Col
-    m={6}
-    s={12}
+    m={12}
+    s={6}
   >
     <Collection>
-      <CollectionItem href="#">
-        Alvin
+      <CollectionItem active href="#">
+       ----- CATAGORIES-------
       </CollectionItem>
       <CollectionItem
-        active
         href="#"
       >
         Alvin

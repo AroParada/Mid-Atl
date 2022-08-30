@@ -1,12 +1,10 @@
 import './App.css';
 import TopNav from './components/topnav';
 import 'materialize-css';
-import Slider from 'react-materialize/lib/Slider';
+import Slider from './components/slider'
 import TopBanner from './assets/kros-mini-disposable-ecig-4000-puff-device-1910.gif'
-import SideNav from 'react-materialize/lib/SideNav';
 import FooterNav from './components/footerNav';
 import Catagories from './components/catagories';
-import { Row, Col, Container } from 'react-materialize';
 
 
 function App() {
@@ -14,7 +12,7 @@ function App() {
 <>
     <img id='banner' src={TopBanner} />
     <TopNav />
-    <Catagories />
+    {/* <Catagories /> */}
     <Slider />
     <FooterNav />
     </> 
@@ -23,11 +21,3 @@ function App() {
 
 
 export default App;
-{/* <>
-    <img id='banner' src={TopBanner} />
-    <TopNav />
-    <Catagories />
-    <Slider />
-    <SideNav />
-    <FooterNav />
-    </> */}
